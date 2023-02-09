@@ -1,0 +1,48 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-h2{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+/* Card */
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  height: 450px;
+  width: 280px;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: 0 40%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.card-info h3{
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-info a {
+  color: red;
+}
+
+.card-info a:hover {
+  font-weight: bold;
+}

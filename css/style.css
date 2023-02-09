@@ -1,0 +1,37 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Stylesheets */
+@import url("../css/components/container.css");
+@import url("../css/components/banner.css");
+@import url("../css/components/button.css");
+@import url("../css/components/cards.css");
+@import url("../css/components/footer.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Space Grotesk;
+  background-color: rgb(58, 58, 58);
+  cursor: url('https://osuskinner.com/elements/interface/cursor/3161/14483.png'), auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: Space Grotesk;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.text-change {
+  color: red;
+  font-weight: 600;
+}
